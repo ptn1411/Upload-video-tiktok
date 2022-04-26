@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WinFormsApp1222</id>
+    <version>1.0.0</version>
+    <authors>WinFormsApp1222</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Selenium.Support" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver" version="4.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/favicon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\zvw18\source\repos\WinFormsApp1222\WinFormsApp1222\bin\Debug\net6.0-windows\WinFormsApp1222.runtimeconfig.json" target="lib\net6.0-windows7.0\WinFormsApp1222.runtimeconfig.json" />
+    <file src="C:\Users\zvw18\source\repos\WinFormsApp1222\WinFormsApp1222\bin\Debug\net6.0-windows\WinFormsApp1222.dll" target="lib\net6.0-windows7.0\WinFormsApp1222.dll" />
+    <file src="C:\Users\zvw18\source\repos\WinFormsApp1222\WinFormsApp1222\favicon.ico" target="content\favicon.ico" />
+    <file src="C:\Users\zvw18\source\repos\WinFormsApp1222\WinFormsApp1222\favicon.ico" target="contentFiles\any\net6.0-windows7.0\favicon.ico" />
+  </files>
+</package>
